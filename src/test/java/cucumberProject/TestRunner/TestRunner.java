@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 
 
-@CucumberOptions(features = "Features" , glue = "cucumberProject.stepdefinition")
+@CucumberOptions(features = "Features" , glue = "cucumberProject.stepdefinition",
+tags ="@dummyLogin" )
 
 public class TestRunner {
 }
