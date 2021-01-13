@@ -53,6 +53,13 @@ public class LoginSD {
     }
 
 
+
+    @Given("^I open browser$")
+    public void i_open_browser() throws Throwable {
+        System.out.println("===I open browser==================");
+    }
+
+
     /*
     //code generated after we run the test runner
     @When("I enter  username  as {string}   and password  as {string}")

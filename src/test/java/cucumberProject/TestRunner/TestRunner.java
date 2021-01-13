@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 
 
 @CucumberOptions(features = "Features" , glue = "cucumberProject.stepdefinition",
-tags ="@dummyLogin" )
+tags =" @forTestingDryRun" ,dryRun = true)
 
 public class TestRunner {
 }
